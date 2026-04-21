@@ -15,7 +15,7 @@ import java.time.LocalDate;
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     private String name;
     private String description;
     private String brand;
@@ -23,7 +23,7 @@ public class Product {
     private String category;
     private LocalDate releaseDate;
     private boolean productAvailable;
-    private int stockQuantity;
+    private Integer stockQuantity;
     private String imageName;
     private String imageType;
     @Lob
